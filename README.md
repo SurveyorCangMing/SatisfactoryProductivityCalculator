@@ -1,4 +1,4 @@
-# SatisfactoryProductivityCalculator
+# Satisfactory Productivity Calculator
 version test -1.2 (build 3)
 
 用于计算幸福工厂产能
