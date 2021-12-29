@@ -1,0 +1,34 @@
+Aluminum Casing
+alt Biocoal
+Biomass (Alien Carapace)
+Biomass (Alien Organs)
+Biomass (Leaves)
+Biomass (Mycelia)
+Biomass (Wood)
+
+
+alt Caterium Wire
+alt Charcoal
+Color Cartridge
+Concrete
+Copper Powder
+Copper Sheet
+Empty Canister
+Empty Fluid Tank
+
+
+
+Power Shard (1)
+Power Shard (2)
+Power Shard (5)
+Quartz Crystal
+Quickwire
+
+Silica
+Solid Biofuel
+Spiked Rebar
+Steel Beam
+alt Steel Canister
+Steel Pipe
+alt Steel Rod
+alt Steel Screw
