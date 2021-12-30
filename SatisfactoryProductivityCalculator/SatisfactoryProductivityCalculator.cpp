@@ -15,24 +15,6 @@ struct Building {
 	int output = -1;
 	int line = -1;
 }buildings[501];
-struct miner {
-	//mine
-	int type = -1;
-	int quality = -1;
-	//miner
-	int level = -1;
-}miners[31];
-struct power {
-	int type = -1;
-}generators[21];
-struct conveyor {
-	int level = -1;
-	int input = -1;
-	int output = -1;
-};
-struct process {
-	int type = -1;
-}processers[121];
 void show_list() {
 	for (int i = 1;i <= n;i++) {
 		if (buildings[i].type != 0) {
