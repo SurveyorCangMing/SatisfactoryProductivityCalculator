@@ -18,6 +18,9 @@
     <ClCompile Include="SatisfactoryProductivityCalculator.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="operation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="README.md">
@@ -28,5 +31,10 @@
     <Text Include="Constructor.txt">
       <Filter>源文件</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="标头.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
