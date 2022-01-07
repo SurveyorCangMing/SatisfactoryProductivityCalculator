@@ -1,3 +1,3 @@
 # Satisfactory Productivity Calculator
 
-version: t-2.0.1 (build 5)
+version: e-(t-2.1.1) (build 6)

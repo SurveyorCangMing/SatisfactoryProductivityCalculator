@@ -1,10 +1,7 @@
 ﻿#include<bits/stdc++.h>
 #include<Windows.h>
-
-#include"operation.cpp"
-
+#include"sfpc.hpp"
 using namespace std;
-
 int sum, n, t;
 struct Building {
 	int type = -1;
@@ -28,26 +25,26 @@ int main() {
 	while (true) {
 		cout << "[+] add building\n[-] delete building\n[=] print productivity\n[s] save\n";
 		cin >> operation;
-
 		if (operation == '+') {
-			int* M = add(/*num*/);
+			int* M = new int[4];
+			M = op_add(M);
 			buildings[num].type = M[1];
 			buildings[num].level = M[2];
 			buildings[num].clockspeed = M[3];
 			num++;
-			//
-			cout << buildings[num].type << buildings[num].level << buildings[num].clockspeed;
-			//
+			delete[] M;
 		}
 		else if (operation == '-') {
 			cin >> t;
 			buildings[t].type = -1;
-			break;
+		}
+		else if (operation == '=') {
+
 		}
 		else {
 			cout << "wrong command\n";
 		}
-
+		Sleep(1000);
 		system("cls");
 	}
 	return 0;
